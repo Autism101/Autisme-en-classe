@@ -1,6 +1,6 @@
 const quizData = [
     {
-      question: 'Quel outil sert de curriculum et d\'\évaluation pour les jeunes autistes?',
+      question: 'Quel outil peut servir de curriculum et d\'\évaluation pour les jeunes autistes?',
       options: ['ARFID', 'ABLLS-R', 'ATEC', 'ADOS'],
       answer: 'ABLLS-R',
     },
