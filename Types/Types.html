@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Nos belles différences</title>
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <div class="center-page">
+      <img src="header.png">
+        <h1>Types d'autisme</h1>
+
+      <div class="tab">
+        <button class="tablinks" onclick="autismType(event, 'type1')">L'autisme infantile</button>
+        <button class="tablinks" onclick="autismType(event, 'type2')">L'autisme atypique</button>
+        <button class="tablinks" onclick="autismType(event, 'type3')">Les troubles désintégratifs</button>
+        <button class="tablinks" onclick="autismType(event, 'type4')">Le syndrome de Rett</button>
+        <button class="tablinks" onclick="autismType(event, 'type5')">Le syndrome d'Asperger</button>
+        <button class="tablinks" onclick="autismType(event, 'type6')">Nouvelle classification (DSM-V)</button>
+      </div>
+      
+      <div id="type1" class="tabcontent">
+        <h2>L'autisme infantile précoce</h2>
+        <p> C'est un trouble envahissant du développement qui se manifeste avant l'âge de trois ans. 
+            Il est caractérisé par un développement anormal et déficient dans les trois domaines suivants: 
+            interactions sociales, communication et comportement.  
+          <br>
+          <br>
+          Les phobies, les perturbations du sommeil et de l'alimentation, les crises de colère et les gestes 
+          autoagressifs font aussi partie des nombreuses manifestations du trouble.</p>
+          <br>
+          <br> 
+          <b>* À noter que ce terme n'est plus utilisé en Ontario depuis l'arrivée du DSM-V en 2013.  Bien que
+            certains spécialistes de la santé utilisent encore ce terme, il est préférable d'utiliser la terminologie
+            présentée dans la section "Nouvelle classification".</b>
+      </div>
+      
+      <div id="type2" class="tabcontent">
+        <h2>L'autisme atypique</h2>
+        <p>C'est un trouble envahissant du développement généralement diagnostiqué après l'âge de trois ans. 
+          L'enfant enregistre une altération de son développement uniquement sur l'un des trois critères de 
+          l'autisme traditionnel et c'est souvent au niveau de la communication ou de la socialisation.
+          <br>
+          <br> 
+          Les enfants atteints d'autisme atypique n'aiment pas le changement et ils ont tendance à répéter 
+          sans cesse les mêmes mots ou les mêmes jeux. Tout comme l'autisme infantile, ils ont des crises 
+          de colère soudaine et de l'agressivité et certains ne développent pas du tout la capacité de parler.
+          <br>
+          <br> 
+          Les facteurs de risque de cette affection sont la prématurité, le faible poids à la naissance, 
+          l'âge avancé des parents et la prise de certains médicaments.</p>
+          <br>
+          <br>
+          <b>* À noter que ce terme n'est plus utilisé en Ontario depuis l'arrivée du DSM-V en 2013.  Bien que
+             certains spécialistes de la santé utilisent encore ce terme, il est préférable d'utiliser la terminologie
+             présentée dans la section "Nouvelle classification".</b>
+      </div>
+      
+      <div id="type3" class="tabcontent">
+        <h2>Les troubles désintégratifs</h2>
+        <p>Avec les troubles désintégratifs, on va constater un développement normal au cours des deux 
+          premières années, suivi d'une perte significative des acquis dans au moins deux des domaines 
+          suivants: langage; compétences sociales; jeux; compétences motrices et/ou contrôle sphinctérien.</p>
+          <br>
+          <br> 
+          <b>* À noter que ce terme n'est plus utilisé en Ontario depuis l'arrivée du DSM-V en 2013.  Bien que
+            certains spécialistes de la santé utilisent encore ce terme, il est préférable d'utiliser la terminologie
+            présentée dans la section "Nouvelle classification".</b>
+      </div> 
+
+      <div id="type4" class="tabcontent">
+        <h2>Le syndrome de Rett</h2>
+        <p>C'est une maladie génétique neurologique qui apparaît après les six premiers mois de croissance 
+          du nourrisson. Il se distingue par des mouvements désordonnés des mains, mais également par un 
+          retard psychomoteur. Ce syndrome touche presque uniquement les filles. Il est incurable.</p>
+          <br>
+          <br> 
+          <b>* À noter que ce terme n'est plus utilisé en Ontario depuis l'arrivée du DSM-V en 2013.  Bien que
+            certains spécialistes de la santé utilisent encore ce terme, il est préférable d'utiliser la terminologie
+            présentée dans la section "Nouvelle classification".</b>
+      </div> 
+
+      <div id="type5" class="tabcontent">
+        <h2>Le syndrome d'Asperger</h2>
+        <p>C'est la partie haute du trouble du spectre de l'autisme. Il se manifeste par une altération 
+          des comportements verbaux et non verbaux, tels que le contact visuel, les mimiques faciales, 
+          les postures et les gestes. Une personne atteinte du syndrome d'Asperger a de la difficulté 
+          à établir des relations avec son entourage et ses comportements sont répétitifs et associés à un rituel.
+          <br>
+          <br> 
+          L'autiste Asperger utilise un langage sophistiqué et son QI est souvent très élevé.  
+          Le syndrome est souvent diagnostiqué plus tardivement dans le développement que l'autisme et 
+          certains tendent à attribuer au syndrome une origine génétique.
+          </p>
+          <br>
+          <br> 
+          <b>* À noter que ce terme n'est plus utilisé en Ontario depuis l'arrivée du DSM-V en 2013.  Bien que
+            certains spécialistes de la santé utilisent encore ce terme, il est préférable d'utiliser la terminologie
+            présentée dans la section "Nouvelle classification".</b>
+      </div>
+
+      <div id="type6" class="tabcontent">
+        <h2>Nouvelle classification (DSM-V)</h2>
+        <p> Selon la nouvelle version du DSM, l'autisme contient maintenant 3 niveaux, chacun avec un 
+          différent niveau de sévérité.  Il est à noter que chacun nécessite un différent montant de soutien.
+          <br>
+          <br>
+          <b>Autisme de niveau 1</b>
+          <br>
+          Bien que les enfants diagnostiqués avec le niveau 1 sont généralement capables de communiquer et de socialiser avec les autres, ils peuvent démontrer de la difficulté.
+          <br>
+          <br>
+          <b>Autisme de niveau 2</b>
+          <br>
+          L'enfant diagnostiqué avec le niveau 2 démontre beaucoup plus de difficulté avec la communication et la socialisation.  
+          Cet enfant nécessitera plus d'aide pour acquérir les compétences nécessaires pour être dans un groupe et s'adapter au changement. La thérapie n'aboutira pas nécessairement en une adaptation complète.  Le soutien en ergothérapie, la thérapie d'intégration sensorielle et autres  seront bénéfiques.  
+          <br>
+          <br>
+          <b>Autisme de niveau 3</b>
+          <br>
+          Un enfant diagnostiqué à ce niveau nécessitera plus d'aide que les autres niveaux présentés.  Bien que l'individu a plus de difficulté avec la communication et les interactions sociales, il est possible que des comportements soient répétés.  Il sera nécessaire d'une thérapie plus intensive que les autres niveaux et potentiellement de médicaments pour traiter certains symptômes.
+          <br>
+          <br>
+          <b>*Avec le temps, le niveau dans lequel un individu se trouve peut changer, que ce soit d'aller dans un niveau de gravité plus sévère ou moins sévère.</b> </p>
+      </div>
+    </div>
+
+      <div id="navigation-panel">
+        <a id="page-accueil" href="../index.html">Page d'accueil</a>
+        <a id="intro" href="../Intro/Intro.html">Qu'est-ce que l'autisme?</a>
+        <a id="types">Types</a>
+        <a id="problemes-defis" href="../Problèmes et défis/Problèmes et défis.html">Problèmes et défis</a>
+        <a id="adaptations" href="../Adaptations/adaptations.html">Adaptations</a>
+        <a id="mythes" href="../Mythes/Mythes.html">Mythes</a>
+        <a id="traitements" href="../Traitements/traitements.html">Traitements</a>
+        <a id="etudes" href="../Études/Études.html">Études</a>
+        <a id="exemple" href="../Exemple/Exemple.html">Exemple</a>
+        <a id="references" href="../Références/Références.html">Références</a>
+      </div>
+    
+
+      <script src="myscript.js"></script> 
+    </body>
+</html>
