@@ -10,12 +10,12 @@ const quizData = [
       answer: 'Trouble du spectre de l\'\autisme (TSA)',
     },
     {
-      question: 'Quelle outil peut être utilisé pour aider certains jeunes autistes en salle de classe?',
-      options: ['Outil de communication', 'Robot social', 'Outil sensoriel', 'Toutes ces réponses sont bonnes'],
+      question: 'Quels outils peuvent être utilisés pour aider certains jeunes autistes en salle de classe?',
+      options: ['Outils de communication', 'Robot sociaux', 'Outils sensoriels', 'Toutes ces réponses sont bonnes'],
       answer: 'Toutes ces réponses sont bonnes',
     },
     {
-      question: 'Le syndrome de Rett (terme non-utilisé en Ontario depuis la publication du DSM-V)',
+      question: 'Le syndrome de Rett (ne fait plus partie de la catégorie du TSA en Ontario depuis la publication du DSM-V)',
       options: ['est curable, mais seulement avec des anti-épileptiques ', 'ne nécessite pas de support en ergothérapie', 'touche majoritairement les filles', 'n\'\affecte pas la motricité', 'touche majoritairement les garçons'],
       answer: 'touche majoritairement les filles',
     },
