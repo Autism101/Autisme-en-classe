@@ -11,7 +11,7 @@ const quizData = [
     },
     {
       question: 'Quels outils peuvent être utilisés pour aider certains jeunes autistes en salle de classe?',
-      options: ['Outils de communication', 'Robot sociaux', 'Outils sensoriels', 'Toutes ces réponses sont bonnes'],
+      options: ['Outils de communication', 'Robots sociaux', 'Outils sensoriels', 'Toutes ces réponses sont bonnes'],
       answer: 'Toutes ces réponses sont bonnes',
     },
     {
@@ -46,8 +46,8 @@ const quizData = [
       answer: 'La recherche du conflit',
     },
     {
-      question: 'Un symptome de l\'\épilepsie chez un enfant autiste est :?',
-      options: ['les mouvements involontaires', 'la fatigue', 'la confusion', 'des émotions instables', 'toutes ces réponses sont bonnes'],
+      question: 'L\'\épilepsie chez un enfant autiste peut entraîner:',
+      options: ['des mouvements involontaires', 'la fatigue', 'la confusion', 'des émotions instables', 'toutes ces réponses sont bonnes'],
       answer: 'toutes ces réponses sont bonnes',
     },
     {
