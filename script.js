@@ -57,7 +57,7 @@ const quizData = [
     },
     {
       question: 'Proloquo2Go',
-      options: ['est un outil qui permet aux enfants autistes non verbal de communiquer', 'est un outil CAA', 'est un outil similaire à TouchChat AAC', 'toutes ces réponses sont bonnes'],
+      options: ['est un outil qui permet aux enfants autistes non verbaux de communiquer', 'est un outil CAA', 'est un outil similaire à TouchChat AAC', 'toutes ces réponses sont bonnes'],
       answer: 'toutes ces réponses sont bonnes',
     },
   ];
